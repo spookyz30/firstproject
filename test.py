@@ -1,5 +1,9 @@
 def additi(x,y):
     return x+y
 
-s = additi(4,9) + additi(8,19)
+def multi(x,y):
+    return x*y
+
+
+s = additi(4,9) + multi(8,19)
 print(s)
